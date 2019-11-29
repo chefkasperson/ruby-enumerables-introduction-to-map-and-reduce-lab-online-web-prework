@@ -46,7 +46,7 @@ def map_to_square(array)
   a 
 end 
 
-def reduce_to_total(array, y = nil)
+def reduce_to_total(array, y = 0)
   total = y
   i = 0 
   
