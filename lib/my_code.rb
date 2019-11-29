@@ -46,3 +46,21 @@ def map_to_square(array)
   a 
 end 
 
+def reduce_to_total(array, y)
+  total = y 
+  i = 0 
+  
+  while i < array.length do 
+    total += array[i]
+    i += 1 
+  end
+  total 
+end 
+
+
+
+
+
+
+
+
