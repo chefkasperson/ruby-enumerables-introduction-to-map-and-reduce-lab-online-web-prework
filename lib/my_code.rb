@@ -58,7 +58,19 @@ def reduce_to_total(array, y = 0)
 end 
 
 def reduce_to_all_true(array)
-  i = 
+  i = 0 
+  
+  while i < array.length do 
+    if array[i] > 0 
+      TRUE
+    else
+      return FALSE
+    end
+    i += 1 
+  end 
+  TRUE
+end
+
 
 
 
