@@ -57,6 +57,10 @@ def reduce_to_total(array, y = 0)
   total 
 end 
 
+def reduce_to_all_true(array)
+  i = 
+
+
 
 
 
