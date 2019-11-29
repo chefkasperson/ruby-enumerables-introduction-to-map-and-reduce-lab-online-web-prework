@@ -9,3 +9,15 @@ def map_to_negativize(array)
   end
   a 
 end
+
+def map_to_no_change(array)
+  a = []
+  i = 0
+  
+  while i < array.length do 
+    x = array[i]
+    a << x 
+    i += 1 
+  end
+  a 
+end 
