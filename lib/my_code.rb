@@ -1,4 +1,4 @@
-def map(array)
+def map_to_negatize(array)
   a = []
   i = 0
   
